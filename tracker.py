@@ -27,6 +27,7 @@ def get_tracker_data(userID, platform):
     return custom_dictionary
 
 
+
 def get_matches(key, var):
     if hasattr(var, 'items'):
         for k, v in var.items():
