@@ -1,3 +1,5 @@
+
+
 import requests
 
 
@@ -16,7 +18,8 @@ def get_tracker_data(userID, platform):
     }
     resp = requests.get(url, headers=headers)
     info = resp.json()
-    platform_dic = {"xbl": "Xbox Live", "psn": "Playstation Network", "steam": "Steam"}
+    platform_dic = {"xbl": "Xbox Live",
+                    "psn": "Playstation Network", "steam": "Steam"}
     custom_dictionary["platform"] = platform_dic[
         info["data"]["platformInfo"]["platformSlug"]
     ]
