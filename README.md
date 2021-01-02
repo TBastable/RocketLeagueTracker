@@ -16,7 +16,7 @@ Currently it is just pulling simple stats from my lifetime and season stats. The
 
 # The API <a name = "theapi"></a>
 
-All information is gathered from the following API, where `<platformID>` and `<userID>` are input in the program .
+All information is gathered from the following API, where `<platformID>` and `<userID>` are input in the program.
 
 ```
 https://api.tracker.gg/api/v2/rocket-league/standard/profile/<platformID>/<userID>
